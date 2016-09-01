@@ -35,7 +35,7 @@ namespace System.Globalization {
         //                        Internal Information                        //
         //--------------------------------------------------------------------//
 
-        enum Tristate : byte
+        private enum Tristate : byte
         {
             NotInitialized,
             True,
