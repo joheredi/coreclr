@@ -78,7 +78,7 @@ namespace System.Globalization {
         [NonSerialized]private String           m_textInfoName;     // Name of the text info we're using (ie: m_cultureData.STEXTINFO)
         [NonSerialized]private IntPtr           m_dataHandle;       // Sort handle
         [NonSerialized]private IntPtr           m_handleOrigin;
-        [NonSerialized]private Tristate         m_IsAsciiCasingSameAsInvariant;
+        [NonSerialized]private Tristate         m_IsAsciiCasingSameAsInvariant = Tristate.NotInitialized;
 
 
         // Invariant text info
